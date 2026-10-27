@@ -1,0 +1,15 @@
+pandas>=2.0.0
+pyyaml
+pyarrow
+psycopg[binary]
+python-dotenv
+streamlit
+gspread 
+google-auth
+gspread
+numpy
+scipy
+outlier-utils
+plotly
+matplotlib
+reportlab

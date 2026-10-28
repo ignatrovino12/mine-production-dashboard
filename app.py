@@ -30,7 +30,7 @@ try:
     with st.spinner("Connecting to Google Sheets..."):
         client = connect_to_sheets()
         spreadsheet = client.open_by_key(SHEET_ID)
-        worksheet = spreadsheet.worksheet("Data_copy")
+        worksheet = spreadsheet.worksheet("Data")
         rows = worksheet.get_all_values()
 
     df = pd.DataFrame(rows[1:], columns=rows[0])
